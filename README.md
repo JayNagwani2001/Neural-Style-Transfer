@@ -6,14 +6,7 @@ This repository contains a Jupyter Notebook for performing neural style transfer
 
 ## Installation
 
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/neural-style-transfer.git
-    cd neural-style-transfer
-    ```
-
-2. Install the required dependencies. It's recommended to use a virtual environment:
+1. Install the required dependencies. It's recommended to use a virtual environment:
 
     ```bash
     pip install virtualenv
@@ -24,23 +17,18 @@ This repository contains a Jupyter Notebook for performing neural style transfer
 
     The `requirements.txt` file includes necessary packages like PyTorch, torchvision, Pillow, and other dependencies.
 
-3. Download the pre-trained VGG19 model weights:
-
-    You can download the weights from [https://download.pytorch.org/models/vgg19-dcbb9e9d.pth](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth) and save them in the project directory.
-
 ## Usage
 
 1. Open the Jupyter Notebook:
 
     ```bash
-    jupyter notebook neural_style_transfer.ipynb
+    jupyter notebook Dashtoon_Project.ipynb
     ```
 
 2. Run the notebook cells sequentially:
 
     - Execute the cells for importing libraries and defining classes.
     - Load your content and style images by updating the file paths in the `load_image` function.
-    - Adjust hyperparameters, such as `total_steps`, `learning_rate`, `alpha`, and `beta`, according to your preferences.
     - Run the remaining cells to perform neural style transfer and visualize the generated image.
 
 3. Monitor the notebook output for loss values and generated image updates.
